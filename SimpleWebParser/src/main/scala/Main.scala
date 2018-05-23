@@ -1,12 +1,13 @@
-import net.ruippeixotog.scalascraper.browser.{JsoupBrowser}
+import net.ruippeixotog.scalascraper.browser.JsoupBrowser
 import net.ruippeixotog.scalascraper.dsl.DSL._
 import net.ruippeixotog.scalascraper.dsl.DSL.Extract._
-import play.api.libs.json.{ Json, JsValue }
-
+import play.api.libs.json.{JsValue, Json}
+import java.io.File
+import java.io.PrintWriter
 
 object Main extends App {
+  
   //Input Web Url From User
-
   print("Masukkan Link berita yang akan dicari : ")
   val pageNewsUrl = scala.io.StdIn.readLine()
 
@@ -51,21 +52,23 @@ object Main extends App {
     "Author" -> author,
     // "Editor" -> editor,  //if exist
     "Title" -> title,
-    "date" -> date,
+    "Date" -> date,
     "Content" -> contentWithSpace,
 
   )
 
   //Print all items from html
-  println("Author Name : " + author)
-//  println("Editor Name : " + editor) // if exist
+  println("Author : " + author)
+//  println("Editor : " + editor) // if exist
   println("Title : " + title)
-  println("Tanggal : " + date)
+  println("Date : " + date)
   println("Content : " + "\n" + contentWithSpace)
 
 
-  //Print jsonObject
-//  println(jsonObject)
 
+  //Crate jsonObject
+  val writer = new PrintWriter(new File("jsonObject.json"))
+  writer.write(jsonObject.toString)
+  writer.close()
 
 }
