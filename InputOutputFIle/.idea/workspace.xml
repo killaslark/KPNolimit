@@ -40,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="File.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="File.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/File.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -52,12 +52,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileTest.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileTest.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/FileTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-              <folding />
+            <state relative-caret-position="399">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,8 +137,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ParsedWebTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/data.txt" />
-        <option value="$PROJECT_DIR$/src/test/scala/FileTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/File.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/FileTest.scala" />
       </list>
     </option>
   </component>
@@ -399,12 +401,12 @@
       <updated>1527024182084</updated>
       <workItem from="1527024183594" duration="14697000" />
       <workItem from="1527142935508" duration="3358000" />
-      <workItem from="1527146397633" duration="1442000" />
+      <workItem from="1527146397633" duration="3340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19497000" />
+    <option name="totallyTimeSpent" value="21395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -570,20 +572,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/FileTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/File.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="72" lean-forward="false" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/FileTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
