@@ -11,21 +11,6 @@
     </properties>
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar!/" />
-      <root url="jar://E:/Download/play/config-1.3.0.jar!/" />
-      <root url="jar://E:/Download/play/jackson-annotations-2.5.4.jar!/" />
-      <root url="jar://E:/Download/play/jackson-core-2.5.4.jar!/" />
-      <root url="jar://E:/Download/play/jackson-databind-2.5.4.jar!/" />
-      <root url="jar://E:/Download/play/jackson-datatype-jdk8-2.5.4.jar!/" />
-      <root url="jar://E:/Download/play/jackson-datatype-jsr310-2.5.4.jar!/" />
-      <root url="jar://E:/Download/play/joda-convert-1.7.jar!/" />
-      <root url="jar://E:/Download/play/joda-time-2.7.jar!/" />
-      <root url="jar://E:/Download/play/play-datacommons_2.10-2.4.1.jar!/" />
-      <root url="jar://E:/Download/play/play-functional_2.10-2.4.1.jar!/" />
-      <root url="jar://E:/Download/play/play-iteratees_2.10-2.4.1.jar!/" />
-      <root url="jar://E:/Download/play/play-json_2.10-2.4.1.jar!/" />
-      <root url="jar://E:/Download/play/scala-library-2.10.5.jar!/" />
-      <root url="jar://E:/Download/play/scala-reflect-2.10.5.jar!/" />
-      <root url="jar://E:/Download/play/scala-stm_2.10-0.7.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

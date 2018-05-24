@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/helloworld.iml" filepath="$PROJECT_DIR$/.idea/modules/helloworld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/helloworld-build.iml" filepath="$PROJECT_DIR$/.idea/modules/helloworld-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simplewebparser.iml" filepath="$PROJECT_DIR$/.idea/modules/simplewebparser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simplewebparser-build.iml" filepath="$PROJECT_DIR$/.idea/modules/simplewebparser-build.iml" />
     </modules>
   </component>
 </project>

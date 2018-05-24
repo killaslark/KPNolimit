@@ -2,6 +2,16 @@ import java.io.{FileNotFoundException, IOException}
 
 import scala.io.Source
 
+object Hello extends App {
+  def addInt(a:Int, b:Int) : Int = {
+    var sum = 0
+
+    sum = a + b
+    return sum
+  }
+
+}
+
 object File extends App {
   def readFIle(filename: String, filepath: String): List[String] = {
     try {

@@ -26,6 +26,8 @@ resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/release
 // You can define other libraries as dependencies in your build like this:
 libraryDependencies += "net.ruippeixotog" %% "scala-scraper" % "2.1.0"
 libraryDependencies += "com.typesafe.play" %% "play-json" % "2.6.7"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.5"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the cats dependency to the set of dependencies that sbt will go
 // and fetch when it starts up.
